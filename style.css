@@ -1,28 +1,37 @@
 body{
     margin: 0px;
 }
+main{
+    margin: 20px;
+}
+
 h1{
     text-align: center;
     
 }
-.navbar ul{
-    list-style-type: none;
+
+.hdr{
     background-color: bisque;
+
+}
+.navbar ul{
     margin: 0px;
     padding: 0%;
-
     display: flex;
     flex-direction: row;
     justify-content: center;
+    list-style-type: none;
+
 }
+
 .navbar a{
     color: rgb(44, 43, 43);
     text-decoration: none;
     text-align: center;
     display:block;
     padding: 15px;
-
 }
+
 .navbar a:hover{
     background-color: rgb(134, 61, 61);
 }
@@ -34,11 +43,49 @@ h1{
     width: 500px;
     height: auto;
 }
+
 .phyImg{
     width: 500px;
     height: auto;
 }
+
 .robImg{
     width: 500px;
     height: auto;
+}
+
+.div1{
+    width: 550px;
+    height: 500px;
+    background-color: rgb(172, 86, 253);
+    text-align: center;
+    border-radius: 15px;
+    justify-content: center;
+
+}
+.div2{
+    width: 550px;
+    height: 500px;
+    background-color: rgb(216, 173, 255);
+    text-align: center;
+    border-radius: 15px;
+    justify-content: center;
+
+}
+.div3{
+    width: 550px;
+    height: 500px;
+    background-color: rgb(237, 217, 255);
+    text-align: center;
+    border-radius: 15px;
+    justify-content: center;
+}
+
+
+.container{
+    justify-content: center;
+}
+#btn{
+    color: #680404;
+    border-radius: 15px;
 }
